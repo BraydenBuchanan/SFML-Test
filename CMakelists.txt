@@ -5,7 +5,7 @@ project(SFML_Project)
 set(CMAKE_STANDARD_CXX 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(SFML_DIR "${CMAKE_CURRENT_SOURCE_DIR}/include/SFML/lib/cmake/SFML")
+set(SFML_DIR "${CMAKE_CURRENT_SOURCE_DIR}/SFML/lib/cmake/SFML")
 find_package(SFML 2.6 COMPONENTS audio graphics window system REQUIRED)
 
 add_executable(SFML_Project "${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp")
